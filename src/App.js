@@ -25,7 +25,7 @@ function App() {
 
   return (
      
-      <ThemeProvider theme={themes[theme]}>
+      <ThemeProvider theme={themes[theme]} >
         
         <Navbar theme={theme} setTheme={setTheme} />
         

@@ -4,7 +4,7 @@ import CardItem from "./Card";
 
 const CardHolder = styled.div`
   width: 100%;
-  height: auto;
+  height: ${(props) => props.theme.data ? "auto" : "70vh"};
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
