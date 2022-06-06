@@ -95,7 +95,7 @@ const Borders = styled.div`
 const Section = styled.div`
   width: 40%;
 `;
-const Section_ = styled.div`
+const SectionM = styled.div`
   @media screen and (max-width: 960px) {
     margin-top: 20px;
   }
@@ -162,11 +162,11 @@ const InfoPage = (props) => {
           <p><strong>Sub Region: </strong>{subregion}</p>
           <p><strong>Capital: </strong>{capital[0]}</p>
           </Section>
-           <Section_>
+           <SectionM>
            <p><strong>Top Level Domain: </strong>{tld} </p>
            <p><strong>Currencies: </strong>{currencies_}</p>
           <p><strong>Language: </strong>{languages_} </p>
-           </Section_>
+           </SectionM>
         </Details>  
         <Borders>
         <strong>Border Countries: </strong>
