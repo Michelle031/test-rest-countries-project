@@ -8,7 +8,7 @@ import {BrowserRouter} from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     
-        <BrowserRouter basename="/rest-countries-api-project">
+        <BrowserRouter basename="/countries-api-project">
             <App />
         </BrowserRouter>
 );

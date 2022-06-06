@@ -1,6 +1,6 @@
 {
   "name": "countries-api",
-  "homepage": "https://michelle031.github.io/rest-countries-api-project/",
+  "homepage": "https://michelle031.github.io/countries-api-project/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
