@@ -8,7 +8,7 @@ import {HashRouter as Router} from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     
-        <Router basename="/countries-api-project">
+        <Router basename="/test-rest-countries-project">
             <App />
         </Router>
 );
